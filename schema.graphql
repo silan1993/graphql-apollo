@@ -1,0 +1,16 @@
+type Language {
+  country: Country
+  Code: String!
+  Name: String
+  Native: String
+}
+type Country {
+  languages: [Language]
+  Code: String!
+  Name: String
+  Native: String
+  Phone: Int
+  Continents: String
+  Capital: String
+  Currency: String!
+}
